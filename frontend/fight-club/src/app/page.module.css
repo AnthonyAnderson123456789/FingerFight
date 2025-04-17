@@ -46,3 +46,27 @@
 .button:hover {
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 844px) and (max-height: 390px) {
+  .page {
+    padding: 100px 20px;
+    gap: 32px;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .info {
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .button {
+    padding: 8px 40px;
+    font-size: 24px;
+  }
+
+  .warning {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}

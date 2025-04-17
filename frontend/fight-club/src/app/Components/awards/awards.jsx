@@ -5,7 +5,7 @@ export default function awards(props) {
     const router = useRouter();
   return (
     <div className={styles.main}>
-      <button onClick={() => router.push(props.link)}></button>
+      <button onClick={() => router.push(props.link)}>🏆</button>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.main button{
+    padding: 16px 16px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d89e00;
+    color: #030303;
+}
+.main button:hover{
+    background-color: #ffffff;
+    color: #78189e;
+    transform: scale(1.1);
+}
