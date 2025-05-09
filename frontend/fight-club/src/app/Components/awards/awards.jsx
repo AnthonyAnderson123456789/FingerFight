@@ -1,11 +1,17 @@
 'use client';
 import { useRouter } from "next/navigation";
 import styles from "./awards.module.css";
-export default function awards(props) {
-    const router = useRouter();
+
+export default function Awards(props) {
+  const router = useRouter();
+
+  async function handleClick() {
+    router.push(props.link);
+  }
+
   return (
     <div className={styles.main}>
-      <button onClick={() => router.push(props.link)}>🏆</button>
+      <button onClick={handleClick}>🏆</button>
     </div>
   );
 }
