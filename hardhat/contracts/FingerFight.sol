@@ -2,6 +2,9 @@
 pragma solidity ^0.8.22;
 
 contract FingerFight {
+    string public creator = "Anthony Jakub Anderson";
+
+
     struct Player {
         string name;
         address player_addr;
